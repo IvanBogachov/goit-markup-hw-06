@@ -243,10 +243,7 @@ section {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-icon {
-    display: block;
-    fill: currentColor;
-}
+
 .button-close:hover,
 .button-close:focus {
     border: 1px solid var(--highlight-color);
@@ -264,18 +261,7 @@ section {
     opacity: 0;
     pointer-events: none;
 }
-.modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 528px;
-    min-height: 581px;
-    background: var(--primery-backgrouncol-port);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    
-    transform: translate(-50%, -50%);
-}
+
 /* peculiarities */
 .pecul {
     padding-bottom: 0;
@@ -728,3 +714,57 @@ footer {
     letter-spacing: 0.06em;
     color: #212121;
 }
+
+/* Modal */
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 528px;
+    height: 581px;
+    background: var(--primery-backgrouncol-port);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+}
+.modal-icon {
+    display: block;
+    fill: currentColor;
+}
+.modal h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    margin-bottom: 12px;
+}
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form-field input {
+    margin: 0;
+    padding: 0;
+}
+.form-field input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+}
+
+
+
+
