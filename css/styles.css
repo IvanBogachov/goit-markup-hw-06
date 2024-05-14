@@ -695,6 +695,7 @@ main {
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
 }
+
 /* ======= FOOTER SECTION ======= */
 .foot {
     background-color: #2e2f42;
@@ -837,6 +838,7 @@ main {
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
+        margin-left: 108px;
     }
     .box-foot {
         align-items: flex-start;
@@ -886,6 +888,7 @@ main {
         opacity: 1;
     }
 }
+
 /* ======= MODAL SECTION ======= */
 .modal-overlay {
     position: fixed;
