@@ -857,7 +857,7 @@ main {
     .foot .container {
         flex-wrap: nowrap;
         align-items: baseline;
-        margin-left: 0px;
+        margin: 0 auto;
     }
     .foot-p {
         width: 264px;
