@@ -868,11 +868,9 @@ main {
     }
     .soc-foot {
         margin-bottom: 0px;
+        margin-right: 80px;
     }
-    .foot-form {
-        margin-left: 80px;
-    }
-    .sub-input {
+        .sub-input {
         opacity: 1;
     }
     .sub-input::placeholder {
