@@ -475,10 +475,10 @@ main {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        gap: 24px;
+        gap: 72px 24px;
     }
     .benef-item {
-        flex-basis: calc((100% - 48px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
     }
     .item-title {
         text-align: left;
@@ -669,10 +669,10 @@ main {
 }
 @media screen and (min-width: 768px) {
     .portf-list {
-        gap: 24px;
+        gap: 72px 24px;
     }
     .portf-item {
-        flex-basis: calc((100% - 48px) / 2);
+        flex-basis: calc((100% - 24px) / 2);
     }
 }
 
@@ -685,6 +685,9 @@ main {
     .portf-item:focus {
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
+        .portf-list {
+            gap: 48px 24px;
+        }
 }
 
 /* ======= FOOTER SECTION ======= */
@@ -828,7 +831,7 @@ main {
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
-        margin-left: 108px;
+        padding-left: 108px;
     }
     .box-foot {
         align-items: flex-start;
@@ -857,7 +860,7 @@ main {
     .foot .container {
         flex-wrap: nowrap;
         align-items: baseline;
-        margin: 0 auto;
+        padding-left: 15px;
     }
     .foot-p {
         width: 264px;
@@ -904,7 +907,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     width: 288px;
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 24px 16px;
     min-height: 623px;
     background-color: #fcfcfc;
     border-radius: 4px;
@@ -1054,6 +1057,8 @@ main {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    display: flex;
+    align-items: center;
 }
 .pol-checkbox {
     width: 16px;
@@ -1061,6 +1066,7 @@ main {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     cursor: pointer;
@@ -1113,6 +1119,7 @@ main {
     .modal {
         width: 408px;
         min-height: 584px;
+        padding: 72px 24px 24px 24px;
     }
 }
 
